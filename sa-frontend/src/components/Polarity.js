@@ -8,6 +8,7 @@ class Polarity extends Component {
         polarity: PropTypes.number.isRequired
     };
 
+
     render() {
         const green = Math.round((this.props.polarity + 1) * 128);
         const red = 255 - green;
